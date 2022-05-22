@@ -22,7 +22,8 @@ public class Record {
 	}
 	
 	public Map<String, Person> getMap(){
-		return record;
+		Map<String, Person> map = new HashMap(record);
+		return map;
 	}
 	
 	public int getKill(String name) {
